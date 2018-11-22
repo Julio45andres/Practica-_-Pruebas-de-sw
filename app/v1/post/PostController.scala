@@ -1,4 +1,4 @@
-package v1.post
+package v1.product
 
 import javax.inject.Inject
 
@@ -9,54 +9,55 @@ import play.api.mvc._
 
 import scala.concurrent.{ExecutionContext, Future}
 
-case class PostFormInput(title: String, body: String)
+case class ProductFormInput(title: String, valorUnitario: Int, body: String)
 
 /**
   * Takes HTTP requests and produces JSON.
   */
-class PostController @Inject()(cc: PostControllerComponents)(implicit ec: ExecutionContext)
-    extends PostBaseController(cc) {
+class ProductController @Inject()(cc: ProductControllerComponents)(implicit ec: ExecutionContext)
+    extends ProductBaseController(cc) {
 
   private val logger = Logger(getClass)
 
-  private val form: Form[PostFormInput] = {
+  private val form: Form[ProductFormInput] = {
     import play.api.data.Forms._
 
     Form(
       mapping(
         "title" -> nonEmptyText,
+        "valor_unitario" -> number,
         "body" -> text
-      )(PostFormInput.apply)(PostFormInput.unapply)
+      )(ProductFormInput.apply)(ProductFormInput.unapply)
     )
   }
 
-  def index: Action[AnyContent] = PostAction.async { implicit request =>
+  def index: Action[AnyContent] = ProductAction.async { implicit request =>
     logger.trace("index: ")
-    postResourceHandler.find.map { posts =>
-      Ok(Json.toJson(posts))
+    productResourceHandler.find.map { products =>
+      Ok(Json.toJson(products))
     }
   }
 
-  def process: Action[AnyContent] = PostAction.async { implicit request =>
+  def process: Action[AnyContent] = ProductAction.async { implicit request =>
     logger.trace("process: ")
-    processJsonPost()
+    processJsonProduct()
   }
 
-  def show(id: String): Action[AnyContent] = PostAction.async { implicit request =>
+  def show(id: String): Action[AnyContent] = ProductAction.async { implicit request =>
     logger.trace(s"show: id = $id")
-    postResourceHandler.lookup(id).map { post =>
-      Ok(Json.toJson(post))
+    productResourceHandler.lookup(id).map { product =>
+      Ok(Json.toJson(product))
     }
   }
 
-  private def processJsonPost[A]()(implicit request: PostRequest[A]): Future[Result] = {
-    def failure(badForm: Form[PostFormInput]) = {
+  private def processJsonProduct[A]()(implicit request: ProductRequest[A]): Future[Result] = {
+    def failure(badForm: Form[ProductFormInput]) = {
       Future.successful(BadRequest(badForm.errorsAsJson))
     }
 
-    def success(input: PostFormInput) = {
-      postResourceHandler.create(input).map { post =>
-        Created(Json.toJson(post)).withHeaders(LOCATION -> post.link)
+    def success(input: ProductFormInput) = {
+      productResourceHandler.create(input).map { product =>
+        Created(Json.toJson(product)).withHeaders(LOCATION -> product.link)
       }
     }
 

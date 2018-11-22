@@ -34,7 +34,7 @@ git checkout 2.6.x
 
 This example is in Scala, but Play also has a [Java API](https://www.playframework.com/documentation/latest/JavaHome) which looks and acts just like the [Scala API](https://www.playframework.com/documentation/latest/ScalaHome), and has a corresponding [play-java-rest-api-example](https://github.com/playframework/play-java-rest-api-example) project.  For instructions on running and using the project, please see the [[appendix]].  This project also comes with an integrated [Gatling](http://gatling.io/) load test -- again, instructions are in the appendix.
 
-Note that there’s more involved in a REST API -- monitoring, representation, and managing access to back end resources -- that we'll cover in subsequent posts.  But first, let's address why Play is so effective as a REST API.
+Note that there’s more involved in a REST API -- monitoring, representation, and managing access to back end resources -- that we'll cover in subsequent products.  But first, let's address why Play is so effective as a REST API.
 
 ## When to use Play
 
@@ -56,7 +56,7 @@ Finally, Play is modular and extensible.  Play works with multiple runtime and c
 
 ## Community
 
-To learn more about Play, check out the [Play tutorials](https://playframework.com/documentation/latest/Tutorials) and see more examples and blog posts about Play, including streaming [Server Side Events](https://github.com/playframework/play-streaming-scala) and first class [WebSocket support](https://github.com/playframework/play-websocket-scala).
+To learn more about Play, check out the [Play tutorials](https://playframework.com/documentation/latest/Tutorials) and see more examples and blog products about Play, including streaming [Server Side Events](https://github.com/playframework/play-streaming-scala) and first class [WebSocket support](https://github.com/playframework/play-websocket-scala).
 
 To get more involved and if you have questions, join the [forums](https://discuss.playframework.com) at  and follow [PlayFramework on Twitter](https://twitter.com/playframework).
 

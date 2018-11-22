@@ -3,7 +3,7 @@ package simulation
 import io.gatling.core.Predef._
 import io.gatling.http.Predef._
 import scala.concurrent.duration._
-import scala.language.postfixOps
+import scala.language.productfixOps
 
 // run with "sbt gatling:test" on another machine so you don't have resources contending.
 // http://gatling.io/docs/2.2.2/general/simulation_structure.html#simulation-structure
@@ -11,7 +11,7 @@ class GatlingSpec extends Simulation {
 
   // change this to another machine, make sure you have Play running in producion mode
   // i.e. sbt stage / sbt dist and running the script
-  val httpConf = http.baseURL("http://localhost:9000/v1/posts")
+  val httpConf = http.baseURL("http://localhost:9000/v1/products")
 
   val readClients = scenario("Clients").exec(Index.refreshManyTimes)
 

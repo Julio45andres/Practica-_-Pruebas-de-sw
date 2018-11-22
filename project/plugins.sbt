@@ -10,3 +10,9 @@ addSbtPlugin("io.gatling" % "gatling-sbt" % "2.2.2")
 
 // Scala formatting: "sbt scalafmt"
 addSbtPlugin("com.lucidchart" % "sbt-scalafmt" % "1.12")
+
+classpathTypes += "maven-plugin"
+
+addSbtPlugin("io.get-coursier" % "sbt-coursier" % "1.0.3")
+addSbtPlugin("org.ensime" % "sbt-ensime" % "2.5.1")
+
