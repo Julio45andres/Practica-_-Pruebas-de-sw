@@ -7,6 +7,9 @@ target
 /.gradle
 /.project
 /.settings
+/.ensime
+/.ensime_cache
+ensime-langserver.log
 /RUNNING_PID
 
 /.vscode

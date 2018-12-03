@@ -90,5 +90,4 @@ class ProductRepositoryImpl @Inject()()(implicit ec: ProductExecutionContext) ex
       data.id
     }
   }
-
 }
