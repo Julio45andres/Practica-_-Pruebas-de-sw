@@ -13,3 +13,4 @@ ensime-langserver.log
 /RUNNING_PID
 
 /.vscode
+/Procfile
