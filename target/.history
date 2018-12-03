@@ -1,0 +1,6 @@
+run
+dist
+playGenerateSecret
+playUpdateSecret
+ensimeConfig
+run

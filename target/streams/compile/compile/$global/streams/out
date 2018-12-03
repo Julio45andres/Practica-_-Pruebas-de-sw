@@ -1,0 +1,7 @@
+[0m[[0m[33mwarn[0m] [0m[0m/home/julio/dev/play-scala-rest-api-example/app/v1/sale/SaleController.scala:3:17: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport play.api._[0m
+[0m[[0m[33mwarn[0m] [0m[0m                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/julio/dev/play-scala-rest-api-example/app/v1/sale/SaleController.scala:5:27: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport play.api.libs.json._[0m
+[0m[[0m[33mwarn[0m] [0m[0m                          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m
