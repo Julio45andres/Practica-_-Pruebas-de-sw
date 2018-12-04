@@ -12,6 +12,6 @@ class SaleRouter @Inject()(controller: SaleController) extends SimpleRouter{
 	
 	override def routes: Routes = {
 		case POST(p"/") => 
-			controller.process
+			controller.addPerson
 	}
 }

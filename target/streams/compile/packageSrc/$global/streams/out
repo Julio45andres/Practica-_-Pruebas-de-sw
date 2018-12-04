@@ -6,6 +6,10 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/conf/logback.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	v1/post/ProductRepository.scala[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/app/v1/post/ProductRepository.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	v1/sale/models/sale.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/app/v1/sale/models/sale.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	v1/sale/models/SaleRepository.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/app/v1/sale/models/SaleRepository.scala[0m
 [0m[[0m[0mdebug[0m] [0m[0m	v1/sale/SaleController.scala[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/app/v1/sale/SaleController.scala[0m
 [0m[[0m[0mdebug[0m] [0m[0m	controllers/HomeController.scala[0m
@@ -20,8 +24,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/app/Module.scala[0m
 [0m[[0m[0mdebug[0m] [0m[0m	v1/sale/SaleRouter.scala[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/app/v1/sale/SaleRouter.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	v1/sale/SaleRepository.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/app/v1/sale/SaleRepository.scala[0m
 [0m[[0m[0mdebug[0m] [0m[0m	application.conf[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/conf/application.conf[0m
 [0m[[0m[0mdebug[0m] [0m[0m	RequestHandler.scala[0m

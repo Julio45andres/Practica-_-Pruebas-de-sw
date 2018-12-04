@@ -4,3 +4,27 @@ playGenerateSecret
 playUpdateSecret
 ensimeConfig
 run
+reload
+update
+reload
+update
+reload
+update
+reload
+update
+sbt reload
+reload
+update
+reload
+update
+sbt reload
+reload
+update
+reaload
+reload
+update
+ensimeClearCache
+reload
+update
+compile
+run

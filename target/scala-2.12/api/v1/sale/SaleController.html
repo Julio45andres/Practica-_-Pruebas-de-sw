@@ -101,10 +101,30 @@
       </span>
       
       <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="../index.html" class="extype" name="v1">v1</a></dd></dl></div>
+    </li><li name="v1.sale.models" visbl="pub" class="indented3 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="models"></a><a id="models:models"></a>
+      <span class="permalink">
+      <a href="../../v1/sale/index.html#models" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <a title="" href="models/index.html"><span class="name">models</span></a>
+      </span>
+      
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="index.html" class="extype" name="v1.sale">sale</a></dd></dl></div>
     </li><li class="current-entities indented2">
                         <span class="separator"></span>
                         <a class="class" href="" title=""></a>
                         <a href="" title="">SaleController</a>
+                      </li><li class="current-entities indented2">
+                        <span class="separator"></span>
+                        <a class="class" href="SaleForm.html" title=""></a>
+                        <a href="SaleForm.html" title="">SaleForm</a>
                       </li><li class="current-entities indented2">
                         <span class="separator"></span>
                         <a class="class" href="SaleRouter.html" title=""></a>
@@ -188,9 +208,9 @@
         <div id="constructors" class="members">
               <h3>Instance Constructors</h3>
               <ol><li name="v1.sale.SaleController#&lt;init&gt;" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
-      <a id="&lt;init&gt;(cc:play.api.mvc.ControllerComponents):v1.sale.SaleController"></a><a id="&lt;init&gt;:SaleController"></a>
+      <a id="&lt;init&gt;(repo:v1.sale.models.SaleRepository,cc:play.api.mvc.ControllerComponents)(implicitec:scala.concurrent.ExecutionContext):v1.sale.SaleController"></a><a id="&lt;init&gt;:SaleController"></a>
       <span class="permalink">
-      <a href="../../v1/sale/SaleController.html#&lt;init&gt;(cc:play.api.mvc.ControllerComponents):v1.sale.SaleController" title="Permalink">
+      <a href="../../v1/sale/SaleController.html#&lt;init&gt;(repo:v1.sale.models.SaleRepository,cc:play.api.mvc.ControllerComponents)(implicitec:scala.concurrent.ExecutionContext):v1.sale.SaleController" title="Permalink">
         <i class="material-icons"></i>
       </a>
     </span>
@@ -199,7 +219,7 @@
         <span class="kind">new</span>
       </span>
       <span class="symbol">
-        <span class="name">SaleController</span><span class="params">(<span name="cc">cc: <a href="https://www.playframework.com/documentation/2.6.20/api/scala/play/api/mvc/ControllerComponents.html#play.api.mvc.ControllerComponents" class="extype" name="play.api.mvc.ControllerComponents">ControllerComponents</a></span>)</span>
+        <span class="name">SaleController</span><span class="params">(<span name="repo">repo: <a href="models/SaleRepository.html" class="extype" name="v1.sale.models.SaleRepository">SaleRepository</a></span>, <span name="cc">cc: <a href="https://www.playframework.com/documentation/2.6.20/api/scala/play/api/mvc/ControllerComponents.html#play.api.mvc.ControllerComponents" class="extype" name="play.api.mvc.ControllerComponents">ControllerComponents</a></span>)</span><span class="params">(<span class="implicit">implicit </span><span name="ec">ec: <a href="http://www.scala-lang.org/api/2.12.6/scala/concurrent/ExecutionContext.html#scala.concurrent.ExecutionContext" class="extype" name="scala.concurrent.ExecutionContext">ExecutionContext</a></span>)</span>
       </span>
       
       <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
@@ -3211,6 +3231,22 @@
       </span>
       
       <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>HeaderNames</dd></dl></div>
+    </li><li name="v1.sale.SaleController#addPerson" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="addPerson:play.api.mvc.Action[play.api.mvc.AnyContent]"></a><a id="addPerson:Action[AnyContent]"></a>
+      <span class="permalink">
+      <a href="../../v1/sale/SaleController.html#addPerson:play.api.mvc.Action[play.api.mvc.AnyContent]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">addPerson</span><span class="result">: <a href="https://www.playframework.com/documentation/2.6.20/api/scala/play/api/mvc/Action.html#play.api.mvc.Action" class="extype" name="play.api.mvc.Action">Action</a>[<a href="https://www.playframework.com/documentation/2.6.20/api/scala/play/api/mvc/AnyContent.html#play.api.mvc.AnyContent" class="extype" name="play.api.mvc.AnyContent">AnyContent</a>]</span>
+      </span>
+      
+      
     </li><li name="scala.Any#asInstanceOf" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="asInstanceOf[T0]:T0"></a>
       <span class="permalink">
@@ -3541,6 +3577,22 @@
       </span>
       
       <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>RequestImplicits</dd></dl></div>
+    </li><li name="v1.sale.SaleController#saleForm" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="saleForm:play.api.data.Form[v1.sale.SaleForm]"></a><a id="saleForm:Form[SaleForm]"></a>
+      <span class="permalink">
+      <a href="../../v1/sale/SaleController.html#saleForm:play.api.data.Form[v1.sale.SaleForm]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">saleForm</span><span class="result">: <a href="https://www.playframework.com/documentation/2.6.20/api/scala/play/api/data/Form.html#play.api.data.Form" class="extype" name="play.api.data.Form">Form</a>[<a href="SaleForm.html" class="extype" name="v1.sale.SaleForm">SaleForm</a>]</span>
+      </span>
+      
+      
     </li><li name="play.api.mvc.BaseControllerHelpers#supportedLangs" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="supportedLangs:play.api.i18n.Langs"></a><a id="supportedLangs:Langs"></a>
       <span class="permalink">

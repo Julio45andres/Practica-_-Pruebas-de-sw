@@ -48,6 +48,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/target/scala-2.12/api/controllers/javascript/ReverseAssets.html[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Module.html[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/target/scala-2.12/api/Module.html[0m
+[0m[[0m[0mdebug[0m] [0m[0m	v1/sale/models/index.html[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/target/scala-2.12/api/v1/sale/models/index.html[0m
 [0m[[0m[0mdebug[0m] [0m[0m	lib/MaterialIcons-Regular.eot[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/target/scala-2.12/api/lib/MaterialIcons-Regular.eot[0m
 [0m[[0m[0mdebug[0m] [0m[0m	router[0m
@@ -56,14 +58,20 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/target/scala-2.12/api/v1/product/ProductData.html[0m
 [0m[[0m[0mdebug[0m] [0m[0m	controllers/javascript[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/target/scala-2.12/api/controllers/javascript[0m
+[0m[[0m[0mdebug[0m] [0m[0m	v1/sale/models/Sale$.html[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/target/scala-2.12/api/v1/sale/models/Sale$.html[0m
 [0m[[0m[0mdebug[0m] [0m[0m	lib/ownderbg2.gif[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/target/scala-2.12/api/lib/ownderbg2.gif[0m
 [0m[[0m[0mdebug[0m] [0m[0m	v1/sale/index.html[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/target/scala-2.12/api/v1/sale/index.html[0m
 [0m[[0m[0mdebug[0m] [0m[0m	lib/template.js[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/target/scala-2.12/api/lib/template.js[0m
+[0m[[0m[0mdebug[0m] [0m[0m	v1/sale/models/SaleRepository.html[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/target/scala-2.12/api/v1/sale/models/SaleRepository.html[0m
 [0m[[0m[0mdebug[0m] [0m[0m	v1/product/ProductResourceHandler.html[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/target/scala-2.12/api/v1/product/ProductResourceHandler.html[0m
+[0m[[0m[0mdebug[0m] [0m[0m	v1/sale/SaleForm.html[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/target/scala-2.12/api/v1/sale/SaleForm.html[0m
 [0m[[0m[0mdebug[0m] [0m[0m	v1/product/ProductId.html[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/target/scala-2.12/api/v1/product/ProductId.html[0m
 [0m[[0m[0mdebug[0m] [0m[0m	v1/product/ProductExecutionContext.html[0m
@@ -86,6 +94,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/target/scala-2.12/api/lib/class.svg[0m
 [0m[[0m[0mdebug[0m] [0m[0m	v1/product/index.html[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/target/scala-2.12/api/v1/product/index.html[0m
+[0m[[0m[0mdebug[0m] [0m[0m	v1/sale/models[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/target/scala-2.12/api/v1/sale/models[0m
 [0m[[0m[0mdebug[0m] [0m[0m	controllers/ReverseHomeController.html[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/target/scala-2.12/api/controllers/ReverseHomeController.html[0m
 [0m[[0m[0mdebug[0m] [0m[0m	lib/open-sans-v13-latin-regular.woff[0m
@@ -94,6 +104,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/target/scala-2.12/api/controllers/HomeController.html[0m
 [0m[[0m[0mdebug[0m] [0m[0m	lib/ownerbg.gif[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/target/scala-2.12/api/lib/ownerbg.gif[0m
+[0m[[0m[0mdebug[0m] [0m[0m	v1/sale/models/Sale.html[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/target/scala-2.12/api/v1/sale/models/Sale.html[0m
 [0m[[0m[0mdebug[0m] [0m[0m	lib/type_diagram.png[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/target/scala-2.12/api/lib/type_diagram.png[0m
 [0m[[0m[0mdebug[0m] [0m[0m	lib/class_diagram.png[0m
@@ -164,6 +176,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/target/scala-2.12/api/lib/lato-v11-latin-100.ttf[0m
 [0m[[0m[0mdebug[0m] [0m[0m	v1[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/target/scala-2.12/api/v1[0m
+[0m[[0m[0mdebug[0m] [0m[0m	v1/sale/models/Sale$$timestampFormat$.html[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/target/scala-2.12/api/v1/sale/models/Sale$$timestampFormat$.html[0m
 [0m[[0m[0mdebug[0m] [0m[0m	lib/index.js[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/target/scala-2.12/api/lib/index.js[0m
 [0m[[0m[0mdebug[0m] [0m[0m	lib/package.svg[0m

@@ -6,6 +6,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/target/scala-2.12/classes/v1/sale/SaleController.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	v1/product/ProductBaseController.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/target/scala-2.12/classes/v1/product/ProductBaseController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	v1/sale/models/SaleRepository.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/target/scala-2.12/classes/v1/sale/models/SaleRepository.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	views/html/index$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/target/scala-2.12/classes/views/html/index$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	router/Routes.class[0m
@@ -28,6 +30,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/target/scala-2.12/classes/views/html[0m
 [0m[[0m[0mdebug[0m] [0m[0m	v1/product/ProductResource.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/target/scala-2.12/classes/v1/product/ProductResource.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	v1/sale/SaleForm.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/target/scala-2.12/classes/v1/sale/SaleForm.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	META-INF/resources/webjars/play-scala-rest-api-example/1.0-SNAPSHOT/stylesheets/main.css[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/public/stylesheets/main.css[0m
 [0m[[0m[0mdebug[0m] [0m[0m	v1/product/ProductId$.class[0m
@@ -46,8 +50,12 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/target/scala-2.12/classes/v1/product/RequestMarkerContext.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	v1/product/ProductControllerComponents$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/target/scala-2.12/classes/v1/product/ProductControllerComponents$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	v1/sale/models/Sale$timestampFormat$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/target/scala-2.12/classes/v1/sale/models/Sale$timestampFormat$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	v1[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/target/scala-2.12/classes/v1[0m
+[0m[[0m[0mdebug[0m] [0m[0m	v1/sale/models[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/target/scala-2.12/classes/v1/sale/models[0m
 [0m[[0m[0mdebug[0m] [0m[0m	v1/product/ProductRequestHeader.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/target/scala-2.12/classes/v1/product/ProductRequestHeader.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	router/RoutesPrefix$.class[0m
@@ -56,6 +64,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/target/scala-2.12/classes/v1/product/ProductResource$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	v1/product/ProductRequest.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/target/scala-2.12/classes/v1/product/ProductRequest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	v1/sale/models/Sale$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/target/scala-2.12/classes/v1/sale/models/Sale$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	views[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/target/scala-2.12/classes/views[0m
 [0m[[0m[0mdebug[0m] [0m[0m	controllers/javascript/ReverseHomeController.class[0m
@@ -76,6 +86,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/target/scala-2.12/classes/RequestHandler.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	v1/product/ProductFormInput$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/target/scala-2.12/classes/v1/product/ProductFormInput$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	v1/sale/models/SaleRepository$SaleTable.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/target/scala-2.12/classes/v1/sale/models/SaleRepository$SaleTable.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	v1/product/RequestMarkerContext$RichLogstashMarker.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/target/scala-2.12/classes/v1/product/RequestMarkerContext$RichLogstashMarker.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	controllers/ReverseAssets.class[0m
@@ -102,6 +114,10 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/target/scala-2.12/classes/router[0m
 [0m[[0m[0mdebug[0m] [0m[0m	controllers/routes$javascript.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/target/scala-2.12/classes/controllers/routes$javascript.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	v1/sale/SaleForm$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/target/scala-2.12/classes/v1/sale/SaleForm$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	v1/sale/models/Sale.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/target/scala-2.12/classes/v1/sale/models/Sale.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	controllers/ReverseHomeController.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/julio/dev/play-scala-rest-api-example/target/scala-2.12/classes/controllers/ReverseHomeController.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	v1/product/ProductController.class[0m

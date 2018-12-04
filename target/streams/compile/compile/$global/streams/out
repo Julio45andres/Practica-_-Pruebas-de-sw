@@ -1,7 +1,10 @@
-[0m[[0m[33mwarn[0m] [0m[0m/home/julio/dev/play-scala-rest-api-example/app/v1/sale/SaleController.scala:3:17: Unused import[0m
-[0m[[0m[33mwarn[0m] [0m[0mimport play.api._[0m
-[0m[[0m[33mwarn[0m] [0m[0m                ^[0m
 [0m[[0m[33mwarn[0m] [0m[0m/home/julio/dev/play-scala-rest-api-example/app/v1/sale/SaleController.scala:5:27: Unused import[0m
 [0m[[0m[33mwarn[0m] [0m[0mimport play.api.libs.json._[0m
 [0m[[0m[33mwarn[0m] [0m[0m                          ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/julio/dev/play-scala-rest-api-example/app/v1/sale/SaleController.scala:7:20: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport play.api.db._[0m
+[0m[[0m[33mwarn[0m] [0m[0m                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/julio/dev/play-scala-rest-api-example/app/v1/sale/SaleController.scala:21:14: private val logger in class SaleController is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m	private val logger = Logger(getClass)[0m
+[0m[[0m[33mwarn[0m] [0m[0m	            ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mthree warnings found[0m

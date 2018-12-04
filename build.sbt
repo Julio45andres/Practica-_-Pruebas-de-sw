@@ -39,3 +39,15 @@ lazy val docs = (project in file("docs")).enablePlugins(ParadoxPlugin).
   settings(
     paradoxProperties += ("download_url" -> "https://example.lightbend.com/v1/download/play-rest-api")
   )
+
+lazy val api = (project in file("modules/api"))
+  .settings(Common.projectSettings)
+
+libraryDependencies ++= Seq("com.typesafe.play" %% "play-slick" % "3.0.1",
+                            "com.typesafe.play" %% "play-slick-evolutions" % "3.0.1",
+                            "org.postgresql" % "postgresql" % "42.1.4")
+
+lazy val slick = (project in file("modules/slick"))
+  .settings(Common.projectSettings)
+  .aggregate(api)
+  .dependsOn(api)
